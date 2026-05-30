@@ -1,14 +1,5 @@
-create database ECOMMERCE_ASSIGNMENT_DB;
-GO
-
 use ECOMMERCE_ASSIGNMENT_DB;
 GO
-
-drop table if exists OrderItem;
-drop table if exists Orders;
-drop table if exists Product;
-drop table if exists Seller;
-drop table if Exists Customer;
 
 create table Customer
 (
